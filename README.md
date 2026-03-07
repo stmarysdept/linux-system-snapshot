@@ -2,30 +2,42 @@
 
 hi sysadmins (or NORMAL people). tired of running multiple commands to gather data on your currently running system/server? linux-system-snapshot is a basic cli-only tool that takes a current "snapshot" of important details about what you're running, such as:
 
+
 _HOSTNAME_
+
 _CURRENT DATE AND TIME_
+
 _SYSTEM UPTIME_
+
 _DISK,RAM,AND CPU USAGE DATA_
+
 _USERS ACTIVE ON SESSION_
+
 _KERNEL VERSION_
+
 _IP ADDRESSES (IPv4 & IPv6)_
 
 # requirements
 
-all you need is _Linux_ and _Python 3_ my friend.
+all you need is: 
+
+_Linux_ 
+
+_Python 3_ 
 
 # usage
 
-git clone https://github.com/stmarysdept/linux-system-snapshot
-cd linux-system-snapshot
-python3 snapshot.py
+_git clone https://github.com/stmarysdept/linux-system-snapshot_
+
+_cd linux-system-snapshot_
+
+_python3 snapshot.py_
 
 
 # example output
 ```
 ============================================================
                         System Info
-```
 
 HOSTNAME:
 mypc
